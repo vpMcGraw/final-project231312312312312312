@@ -1,0 +1,45 @@
+body{
+    font-family: "Montserrat";
+}
+.h2{
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+.h1{
+    
+}
+.index_img{
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+}
+.imgSrc{
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 0px 10px 3px 5px;
+    color: rgba(240, 248, 255, 85%);
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    font-size: small;
+    border-end-end-radius: 50px;
+    cursor: default;
+}
+.imgSrc > a{
+    color: rgba(240, 248, 255, 85%);
+    text-decoration: none;
+}
+.fact > h3{
+    z-index: 99;
+}
+.fact{
+    
+    margin-top: -50px;
+    border: 1px solid darkred;
+    background-color: darkred;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+.header_text{
+    text-align: right;
+}
