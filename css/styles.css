@@ -5,14 +5,15 @@ body{
     font-family: "Montserrat";
     font-weight: 200;
 }
-.h1{
-    
+.indexImg{
+    position: absolute;
+    float: left;
+    margin-top: -140px;
 }
 .index_img{
-    width: 100%;
+    width: 55%;
     border-radius: 5px;
-    z-index: 1;
-}
+    z-index: 1;}
 .imgSrc{
     background-color: rgba(0, 0, 0, 50%);
     padding: 0px 10px 3px 5px;
@@ -32,14 +33,23 @@ body{
     z-index: 99;
 }
 .fact{
-    
-    margin-top: -50px;
-    border: 1px solid darkred;
-    background-color: darkred;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgba(139, 0, 0, 75%);
     width: 200px;
     height: 150px;
-    text-align: center;
+    margin-top: 150px;
+    margin-left: 15px;
+    padding: 5px;
 }
 .header_text{
+    float: right;
     text-align: right;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: darkgray;
+    width: 42%;
+    height: 253px;
+    margin-right: 10px;
+    padding: 10px;
 }
