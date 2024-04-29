@@ -1,3 +1,7 @@
+:root{
+    --clr-headBackground: rgb(133, 70, 70);
+}
+
 body{
     font-family: "Montserrat";
     background-color: rgb(214, 207, 196);
@@ -54,3 +58,14 @@ body{
     margin-right: 10px;
     padding: 10px;
 }
+
+/*NAV STYLES*/
+
+.nav_links{
+    display: none;
+}
+
+.header{
+    color: blue;
+}
+
